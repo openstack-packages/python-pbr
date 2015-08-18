@@ -21,7 +21,6 @@ Source0:        http://pypi.python.org/packages/source/p/%{pypi_name}/%{pypi_nam
 BuildArch:      noarch
 
 BuildRequires:  python2-devel
-BuildRequires:  python-d2to1
 
 %if 0%{?do_test} == 1
 BuildRequires:  python-coverage
@@ -44,7 +43,6 @@ BuildRequires: python-sphinx >= 1.1.3
 
 %if 0%{?with_python3}
 BuildRequires:  python3-devel
-BuildRequires:  python3-d2to1
 %endif
 
 %description
